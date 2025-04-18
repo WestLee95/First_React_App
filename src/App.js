@@ -20,9 +20,9 @@ const App = () => {
 
   useEffect(() => {
     searchMovies('Avengers');
-    //fetch(API_KEY)
-    //  .then(response => response.json())
-      //.then(data => console.log(data));
+    fetch(API_KEY)
+    .then(response => response.json())
+    .then(data => console.log(data));
   }, []);
 
   return (
