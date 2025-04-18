@@ -7,15 +7,6 @@ import MovieCard from './MovieCard';
 
 const API_KEY = 'http://www.omdbapi.com/?apikey=3bf4b5c3';
 
-const movie1 = {
-  "Title": "Avengers: Endgame",
-  "Year": "2019",
-  "imdbID": "tt4154796",
-  "Type": "movie",
-  "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg"
-
-}
-
 const App = () => {
 
   const [movies, setMovies] = useState([]);
