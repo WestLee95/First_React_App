@@ -1,4 +1,7 @@
-# MovieTime 🎬
+## MovieTime 🎬
+
+# View
+![MovieTime Screenshot](.assets/Screenshot.png)
 
 **MovieTime** is a responsive, beginner-friendly React application that allows users to search for movies using the [OMDb API](https://www.omdbapi.com/). With real-time input handling and clean UI components, this project demonstrates how to work with APIs, manage application state using React hooks, and build a simple interactive user experience.
 
